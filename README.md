@@ -40,7 +40,7 @@ Create a gocheck.sh file run the tools against your packages instead of the defa
 Run the tool inside Docker.
 
 ```bash
-docker run --rm -v `pwd`/gocheck.sh:/go/gocheck.sh -v ~/go/src/:/go/src welldigital/gocheck:latest
+docker run --rm -v `pwd`/gocheck/:/gocheck -v ~/go/src/:/go/src welldigital/gocheck:latest
 ```
 
 This command line:
